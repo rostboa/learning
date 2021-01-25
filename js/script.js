@@ -1,10 +1,26 @@
 
 "use strict";
 
-const category = 'toys';
+console.log(4 + '5');
 
-console.log(`https//greetings-day/${category}/5/${category}`);
+let incr = 10,
+    decr = 10;
+
+// ++incr;
+// --decr;
+
+console.log(++incr);
+console.log(--decr);
 
 
-const user = 'Ivan';
-alert(`Hello, ${user}`);
+// console.log(incr);
+// console.log(decr);
+console.log(5%2);
+
+console.log(2 + 2 * 2 === +'8');
+
+const isChecked = false,
+        iClose = false;
+
+
+console.log(isChecked || !iClose);
